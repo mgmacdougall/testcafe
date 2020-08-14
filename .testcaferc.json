@@ -1,0 +1,15 @@
+{
+  "browsers": [
+    "chrome:headless"
+  ],
+  "reporter": {
+    "name": "xunit",
+    "output": "reports/report.xml"
+  },
+  "screenshots": {
+    "path": "./screenshots/",
+    "singleFile": true,
+    "takeOnFails": true,
+    "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${TEST}.png"
+  }
+}

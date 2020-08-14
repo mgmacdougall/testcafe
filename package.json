@@ -1,0 +1,16 @@
+{
+  "name": "surveymonkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui-tests": "testcafe ./tests/heroku"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "7.6.0",
+    "testcafe": "1.9.1"
+  }
+}
