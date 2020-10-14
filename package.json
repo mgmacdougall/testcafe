@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ui-tests": "testcafe ./tests/heroku"
+    "ui-tests": "testcafe chrome ./tests/heroku"
   },
   "author": "",
   "license": "ISC",
